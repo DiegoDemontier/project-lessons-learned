@@ -1,3 +1,10 @@
+* {
+  font-size: 16px;
+  color: black;
+  line-height: 110%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -5,9 +12,75 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  height: auto;
+  left: 0;
+  height: 100px;
   width: 100%;
   background-color: aqua;
+}
+
+.main {
+  margin-top: 105px;
+  height: 400px;
+  background-color: blueviolet;
+}
+
+table {
+  position: absolute;
+  left: 30%;
+  background-color: chartreuse;
+}
+
+nav {
+  top: 90%;
+  position: absolute;
+}
+
+footer {
+  margin-top: 0;
+  height: 100px;
+}
+
+.align {
+  background-color: black;
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  font-size: 20px;
+  position: absolute;
+  left: 30%;
+  right: 51%;
+  background-color: blue;
+}
+
+.lado-direito {
+  font-size: 20px;
+  position: absolute;
+  left: 51%;
+  right: 30%;
+  background-color: brown;
+}
+
+#titulo {
+  font-size: 30px;
+  text-align: center;
+}
+
+.list {
+  background-color: aqua;
+  position: absolute;
+  margin: 0;
+  padding: 2px;
+  width: 130px;
+  top: 200px;
+}
+
+#minha_foto {
+  border-radius: 10%;
+  height: 150px;
+  margin: 0;
+  padding: 0;
+  border: 5px solid white;
 }
 
 #rodape {
