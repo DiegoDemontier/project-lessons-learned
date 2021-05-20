@@ -4,7 +4,7 @@
   background-color: rgb(253, 251, 251);
 }
 
-body, html {
+body , html {
   height: 100%;
 }
 
@@ -34,23 +34,23 @@ body {
   background-color: white;
   position: fixed;
   width: 130px;
- }
+}
 
 table {
-   font-size: 20px;
-   width: 300px;
-   position: absolute;
-   margin-top: 55px;
-   margin-left: 39%;
-   background-color: aqua;
- }
+  font-size: 20px;
+  width: 300px;
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 39%;
+  background-color: aqua;
+}
 
-th, td {
-   text-align: center;
-   left: 10px;
-   width: 100px;
-   background-color: aqua;
- }
+th , td {
+  text-align: center;
+  left: 10px;
+  width: 100px;
+  background-color: aqua;
+}
 
 .list {
   margin-top: 160px;
@@ -59,7 +59,7 @@ th, td {
   margin-bottom: 0%;
 }
 
-nav, a {
+nav , a {
   margin-top: 8%;
   text-decoration: none;
 }
